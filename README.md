@@ -8,3 +8,52 @@ The code provided here is intended to replicate the experiments and results pres
 ## Installation
 ```git clone https://github.com/HIRIS-Lab/InvivoBrainHSI-Benchmark.git```
 
+[TODO check dependencies]
+MATLAB script requires:
+   - Image Processing Toolbox Hyperspectral Imaging Library
+
+
+## Usage
+
+Before using the code, make sure you have set up the project as described in the Installation section. After that, you can run the code with the following command:
+``` matlab main.m```
+
+This command will execute the main code, which replicates the experiments presented in the paper. You may need to configure certain parameters or settings within the code to match the specifics of your experiments or dataset.
+
+## Dataset
+The dataset used in the paper can be found at [HSI Brain Database](https://hsibraindatabase.iuma.ulpgc.es). Follow the instructions provided there to download and prepare the dataset for use with this code.
+
+## Code Structure
+The project structure is organized as follows:
+
+*data/: This directory contains data-related code and information.
+*models/: Contains the model architectures or pre-trained models used in the paper.
+*utils/: Utility functions and helper scripts.
+*main.m: The main script to run the experiments.
+*config.m: Configuration file for various settings and hyperparameters.
+
+## Citation
+If you use this code or the results obtained from it in your research, please cite the original paper:
+
+@article{AuthorYear,
+  title={Title of the Paper},
+  author={Author(s)},
+  journal={Journal of XYZ},
+  year={Year},
+}
+
+## License
+
+Copyright 2023 Himar Fabelo, Raquel Leon and Samuel Ortega
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
