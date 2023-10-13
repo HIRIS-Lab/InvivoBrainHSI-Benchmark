@@ -6,5 +6,5 @@ This GitHub repository contains the MATLAB code of the research paper titled "Hy
 The code provided here is intended to replicate the experiments and results presented in the paper. This README file will guide you through the repository's structure, how to use the code, and how to reproduce the results. Please refer to the original paper for a detailed explanation of the research.
 
 ## Installation
-```git clone https://github.com/HIRIS-Lab/InvivoBrainHSI-Benchmark.git
+```git clone https://github.com/HIRIS-Lab/InvivoBrainHSI-Benchmark.git```
 
