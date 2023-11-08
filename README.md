@@ -8,16 +8,14 @@ The code provided here is intended to replicate the experiments and results pres
 ## Installation
 ```git clone https://github.com/HIRIS-Lab/InvivoBrainHSI-Benchmark.git```
 
-[TODO check dependencies]
 MATLAB script requires:
-   - Image Processing Toolbox Hyperspectral Imaging Library
-
+   - Statistics and Machine Learning Toolbox
 
 ## Usage
 
 Before using the code, make sure you have set up the project as described in the Installation section. After that, you can run the code with the following command:
 
-``` matlab main.m```
+``` matlab [classification, pca_r, knn, clusterMap, mv, tmdMap ] = spectralSpatialMV(model, hsCube)```
 
 This command will execute the main code, which replicates the experiments presented in the paper. You may need to configure certain parameters or settings within the code to match the specifics of your experiments or dataset.
 
@@ -27,10 +25,10 @@ The dataset used in the paper can be found at [HSI Brain Database](https://hsibr
 ## Code Structure
 The project structure is organized as follows:
 
-* data/: This directory contains data-related code and information.
+* data/: This directory contains input data.
 * models/: Contains the model architectures or pre-trained models used in the paper.
 * utils/: Utility functions and helper scripts.
-* main.m: The main script to run the experiments.
+* spectralSpatialMV.m: The main script to run the experiments.
 * config.m: Configuration file for various settings and hyperparameters.
 
 ## Citation
