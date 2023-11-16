@@ -3,7 +3,7 @@ This folder contains MATLAB models for image classification. The supported model
 
 ```model.probAllImage: % Probabilities
 model.classMap: % Predicted labels
-model.listOfClass: % Probabilities order```
+model.listOfClass: % Probabilities order
 
 ## Supported Models
 
