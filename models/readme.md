@@ -1,9 +1,5 @@
 # Models
-This folder contains MATLAB models for image classification. The supported models include 'TreeBagger', 'ClassificationKNN', and 'ClassificationECOC'. Additionally, you can use a custom MATLAB struct adhering to the following format:
-
-```model.probAllImage: % Probabilities
-model.classMap: % Predicted labels
-model.listOfClass: % Probabilities order
+This folder contains MATLAB models for image classification. The supported models include 'TreeBagger', 'ClassificationKNN', and 'ClassificationECOC'. Additionally, you can use a custom MATLAB struct.
 
 ## Supported Models
 
