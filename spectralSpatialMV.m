@@ -68,14 +68,15 @@ end
 
 
 %% Probabilities generation
-disp('***********Computing Classification...***********');
 
 if isstruct(model) %Check if model only contains the probabilities
+    disp('***********Reading Classification Data...***********');
     listOfClass = model.listOfClass;
     classification.probAllImage = model.probAllImage;
     classification.classMap = model.classMap;
 
 elseif isobject(model) %Check if model is a pre-trained model
+    disp('***********Computing Classification...***********');
     algorithmName = class(model);
     % Obtain the probability scores  amd predicted label for each class in each pixel.
     switch algorithmName
