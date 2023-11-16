@@ -51,7 +51,7 @@ load("data\Op42C2.mat", "hsCube");
 %First, include the probabilities in the folder. Change the variable name
 %if is necessary
 
-load("models\svmProb.mat", "model");
+load("models\prob_RF.mat", "model");
 %Employ the following struct:
 %     model.probAllImage: probabilities
 %     model.classMap: predicted labels 
