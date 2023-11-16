@@ -3,9 +3,9 @@ This folder contains MATLAB models for image classification. The supported model
 
 ## Supported Models
 
-1. TreeBagger [using TreeBagger](https://www.mathworks.com/help/stats/treebagger.html)
-2. ClassificationKNN  [using fitcknn](https://www.mathworks.com/help/stats/fitcknn.html)
-3. ClassificationECOC [using fitcsvm](https://www.mathworks.com/help/stats/fitcecoc.html)
+1. TreeBagger using [TreeBagger](https://www.mathworks.com/help/stats/treebagger.html)
+2. ClassificationKNN using [fitcknn](https://www.mathworks.com/help/stats/fitcknn.html)
+3. ClassificationECOC using [fitcsvm](https://www.mathworks.com/help/stats/fitcecoc.html)
 
 ## Custom Model Struct
 
