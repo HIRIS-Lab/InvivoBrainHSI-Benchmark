@@ -19,7 +19,6 @@
 % Clear workspace and command window
 clear all;
 clc;
-addpath('utils/');
 
 %Load the HS Cube
 load("data\Op42C2.mat", "hsCube");
@@ -34,6 +33,7 @@ load("models\model_RF.mat", "model");
 [classification, pca_r, knn, clusterMap, mv, tmdMap ] = spectralSpatialMV(model, hsCube);
 
 %Plot results
+addpath('utils/');
 plotExample(classification, pca_r, knn, clusterMap, mv, tmdMap);
 
 rmpath('utils/');
@@ -43,7 +43,7 @@ rmpath('utils/');
 clear all;
 clc;
 
-addpath('utils/');
+
 %Load the HS Cube
 load("data\Op42C2.mat", "hsCube");
 
@@ -61,6 +61,7 @@ load("models\prob_RF.mat", "model");
 [classification, pca_r, knn, clusterMap, mv, tmdMap ] = spectralSpatialMV(model, hsCube);
 
 %Plot results
+addpath('utils/');
 plotExample(classification, pca_r, knn, clusterMap, mv, tmdMap);
 
 rmpath('utils/');
