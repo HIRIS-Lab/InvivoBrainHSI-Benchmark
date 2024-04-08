@@ -26,10 +26,10 @@ The dataset used in the paper can be found at [HSI Brain Database](https://hsibr
 The project structure is organized as follows:
 
 * data/: This directory contains input data.
-* models/: Contains the model architectures or pre-trained models used in the paper.
+* models/: Contains an example of pre-trained models. User-trained models must be inserted here. 
 * utils/: Utility functions and helper scripts.
-* spectralSpatialMV.m: The main script to run the experiments.
-* config.m: Configuration file for various settings and hyperparameters.
+* spectralSpatialMV.m: Code to run the spectral-spatial framework.
+* main.m: The main script to run the experiments and plot the results.
 
 ## Citation
 If you use this code or the results obtained from it in your research, please cite the original paper:
