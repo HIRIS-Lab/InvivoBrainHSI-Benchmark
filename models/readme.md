@@ -1,5 +1,5 @@
 # Models
-This folder contains MATLAB models for image classification. The supported models include 'TreeBagger', 'ClassificationKNN', and 'ClassificationECOC'. Additionally, you can use a custom MATLAB struct.
+User-trained models must be inserted here. The supported models include 'TreeBagger', 'ClassificationKNN', and 'ClassificationECOC'. Additionally, you can use a custom MATLAB struct.
 
 ## Supported Models
 
@@ -14,3 +14,5 @@ If you choose to use a custom model struct, ensure that it includes the followin
 * model.probAllImage: This field should contain the probabilities associated with each class for each image.
 * model.classMap: Predicted labels for each image.
 * model.listOfClass: The order of probabilities corresponding to each class.
+
+Prob_RF.mat is an example of a custom model structure. This file can only be used with the HS image provided in the data folder.   
