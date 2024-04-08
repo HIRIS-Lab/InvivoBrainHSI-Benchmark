@@ -34,12 +34,7 @@ The project structure is organized as follows:
 ## Citation
 If you use this code or the results obtained from it in your research, please cite the original paper:
 
-@article{AuthorYear,
-  title={Title of the Paper},
-  author={Author(s)},
-  journal={Journal of XYZ},
-  year={Year},
-}
+Leon, R., Fabelo, H., Ortega, S. et al. Hyperspectral imaging benchmark based on machine learning for intraoperative brain tumour detection. npj Precis. Onc. 7, 119 (2023). https://doi.org/10.1038/s41698-023-00475-9
 
 ## License
 
